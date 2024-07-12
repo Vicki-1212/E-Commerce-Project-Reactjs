@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.similar-product-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-product-list {
+    width: 250px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+  }
+}
+
+.similar-products-title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.similar-products-brand {
+  color: #475569;
+  font-size: 16px;
+}
